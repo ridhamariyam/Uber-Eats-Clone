@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+}
+nav{
+    position: absolute;
+   
+   top: 0;
+}
+.navbar{
+    
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    font-size:30px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 20px;
+   margin-bottom: 50px;
+   font-family: sans-serif;
+}
+.icon{
+    width:45px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.button{
+    margin-left:900px;
+    margin-top: 15px;
+}
+.btn{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    width: 95px;
+    height: 50px;
+    border:none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #CCCCCC;
+}
+.btn.a{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btn.a:hover{
+    background-color: #333333;
+}
+
+.back-cover img{
+    width: 100%;
+    height: 100vh;
+}
+
+.cover-content{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cover-content h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.cover-content p{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.cover-content p a{
+    color: black;
+}
+.search input{
+  height: 50px;
+  width: 450px;
+  font-size: 15px;
+  border:none ;
+  letter-spacing: 1px;
+  padding-left: 50px;
+
+}
+.search select{
+    height:50px;
+    border: none;
+    padding-top: 3px;
+    margin-inline: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    padding-inline: 10px;
+    padding-right: -20px;
+}
+.cover-content button{
+   padding-inline: 10px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border: solid black;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cover-content button:hover{
+    background-color: #333333;
+    border: solid #333333;
+}
+.card-section{
+    display:flex;
+    margin-top: 30px;
+    padding-left: 30px;
+
+}
+.card img{
+    width: 350px;
+    height: 200px;
+    padding: 40px ;
+}
+.card h1 {
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 25px;
+}
+.card a{
+    margin-left: 40px;
+    color: black;
+
+}
+.map{
+   padding-left: 60px;
+}
+.map img{
+   width: 90%;
+   height: auto;
+}
+.area{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    
+}
+.area ul{
+    margin-right: 100px;
+}
+.area li{
+    list-style:none;
+    padding:20px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.locations{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.location-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-inline: 60px;
+}
+
+.location-head a{
+    color: black;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.footer-top{
+    flex-direction: row;
+    display: flex;
+    padding-inline: 60px;
+}
+
+.footer-store{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 50%;
+}
+.footer-store img{
+    width: 300px;
+}
+
+.footer-list{  
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-list ul li{
+    list-style: none;
+    margin-bottom: 35px;
+}
+
+.footer-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.footer-list a:hover{
+    text-decoration: underline;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.base-icons{
+    width: 30%;
+    text-align: left;
+}
+.base-icons ul li{
+    display: inline;
+    list-style: none;
+    margin-inline: 10px;
+}
+
+.base-icons ul li a{
+    color: black;
+    font-size: 23px;
+}
+
+
+
+.privacy-policy{
+    text-align: right;
+}
+
+.privacy-policy ul li{
+    list-style: none;
+    display: inline;
+    margin-inline: 10px;
+    cursor: pointer;
+}
+
+.privacy-policy ul li:hover{
+    text-decoration: underline;
+}
+
+.copyright ul li{
+    list-style: none;
+    display: inline;
+    margin-inline: 10px;
+}
+
+.footer-hr hr{
+    width: 90%;
+    height: .5px;
+    border: none;
+    
+    background-color: rgb(207, 207, 207);
+}
